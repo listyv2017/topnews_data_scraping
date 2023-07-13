@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup as bs4
 import re
 
-#HTMLデータの取得
+#retrieve 10 topnews
 def get_data():
 
     load_url = "https://news.yahoo.co.jp/"
